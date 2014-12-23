@@ -10,9 +10,10 @@ UnderlinePosition: -61
 UnderlineWidth: 24
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 XUID: [1021 400 913805956 10687321]
 FSType: 2
 OS2Version: 1
@@ -49,15 +50,17 @@ OS2SupXOff: 0
 OS2SupYOff: 453
 OS2StrikeYSize: 57
 OS2StrikeYPos: 236
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'NCST'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000003.00000000.00000000.00000000
-Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0"  {"'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 1"  {"'half' Half Forms in Malay+AQEA-lam lookup 1 subtable"  } ['half' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 2"  {"'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable"  } ['pres' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 4"  {"'pstf' Post Base Forms in Malay+AQEA-lam lookup 4 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5 subtable"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0" { "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 1" { "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable"  } ['half' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 2" { "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3" { "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable"  } ['pres' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 4" { "'pstf' Post Base Forms in Malay+AQEA-lam lookup 4 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5" { "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5 subtable"  } ['psts' ('mlym' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -289,7 +292,7 @@ ShortTable: maxp 16
   2
   2
 EndShort
-LangName: 1033 "" "" "" "Kalyani2008SMC" "" " Version 1.3" "" "" "" "Jeroen Hellingman, Hiran Venugopalan" "" "http://smc.org.in" "" "Kalyani Malayalam font+AA0ACgAA (c) 2002 Shaji N Vyapron,Jeroen Hellingman, 2008 Hiran Venugopalan, Swathanthra Malyalam Computing (http://smc.org.in)+AAoACgAA    This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.+AA0ACgANAAoA    This program is distributed in the hope that it will be useful,+AA0ACgAA    but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  GNU General Public License for more details.+AA0ACgANAAoA    You should have received a copy of the GNU General Public License  along with this program; if not, write to the Free Software+AA0ACgAA    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA+AA0ACgANAAoACgAA---------------+AAoA-Font Exception+AAoA---------------+AAoACgAA    As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. +AAoA" "http://www.gnu.org/licenses/gpl.html" 
+LangName: 1033 "" "" "" "Kalyani2008SMC" "" " Version 1.3" "" "" "" "Jeroen Hellingman, Hiran Venugopalan" "" "http://smc.org.in" "" "Kalyani Malayalam font+AA0ACgAA (c) 2002 Shaji N Vyapron,Jeroen Hellingman, 2008 Hiran Venugopalan, Swathanthra Malyalam Computing (http://smc.org.in)+AAoACgAA    This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.+AA0ACgANAAoA    This program is distributed in the hope that it will be useful,+AA0ACgAA    but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  GNU General Public License for more details.+AA0ACgANAAoA    You should have received a copy of the GNU General Public License  along with this program; if not, write to the Free Software+AA0ACgAA    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA+AA0ACgANAAoACgAA---------------+AAoA-Font Exception+AAoA---------------+AAoACgAA    As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. +AAoA" "http://www.gnu.org/licenses/gpl.html"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -298,7 +301,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 108 12 5
+WinInfo: 26 13 5
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65702 295
@@ -308,6 +311,7 @@ Encoding: 65536 -1 0
 Width: 500
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 62 0 m 1,0,-1
@@ -329,6 +333,8 @@ Width: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: nonmarkingreturn
@@ -337,6 +343,8 @@ Width: 333
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: space
@@ -345,6 +353,8 @@ Width: 379
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: exclam
@@ -353,6 +363,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 208 729 m 1,0,-1
@@ -376,6 +387,7 @@ Width: 355
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 52 709 m 1,0,-1
@@ -401,6 +413,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 485 697 m 1,0,-1
@@ -446,6 +459,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 243 770 m 1,0,-1
@@ -503,6 +517,7 @@ Width: 889
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 199 685 m 0,0,1
@@ -574,6 +589,7 @@ Width: 667
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 493 334 m 1,0,-1
@@ -642,6 +658,7 @@ Width: 221
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 64 729 m 1,0,-1
@@ -663,6 +680,7 @@ Width: 333
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 236 729 m 1,0,-1
@@ -686,6 +704,7 @@ Width: 333
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 93 -212 m 1,0,-1
@@ -709,6 +728,7 @@ Width: 389
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 160 729 m 1,0,-1
@@ -736,6 +756,7 @@ Width: 584
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 267 m 1,0,-1
@@ -760,6 +781,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 87 104 m 1,0,-1
@@ -782,6 +804,7 @@ Width: 333
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 284 312 m 1,0,-1
@@ -798,6 +821,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 191 104 m 1,0,-1
@@ -814,6 +838,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 229 729 m 1,0,-1
@@ -830,6 +855,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 275 709 m 2,0,1
@@ -864,6 +890,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 259 505 m 1,0,-1
@@ -886,6 +913,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 506 87 m 1,0,-1
@@ -924,6 +952,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 221 325 m 1,0,-1
@@ -970,6 +999,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 327 170 m 1,0,-1
@@ -997,6 +1027,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 476 709 m 1,0,-1
@@ -1034,6 +1065,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 498 524 m 1,0,-1
@@ -1077,6 +1109,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 520 709 m 1,0,-1
@@ -1098,6 +1131,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 391 373 m 1,0,1
@@ -1157,6 +1191,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 53 162 m 1,0,-1
@@ -1201,6 +1236,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 214 104 m 1,0,-1
@@ -1222,6 +1258,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 215 524 m 1,0,-1
@@ -1249,6 +1286,7 @@ Width: 584
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 45 198 m 1,0,-1
@@ -1268,6 +1306,7 @@ Width: 584
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 353 m 1,0,-1
@@ -1289,6 +1328,7 @@ Width: 584
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 539 267 m 1,0,-1
@@ -1308,6 +1348,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 330 199 m 1,0,-1
@@ -1355,6 +1396,7 @@ Width: 1015
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 665 501 m 1,0,-1
@@ -1434,6 +1476,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 250 729 m 1,0,-1
@@ -1454,6 +1497,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 47 729 m 1,0,-1
@@ -1470,6 +1514,7 @@ Width: 278
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 23 -212 m 1,0,-1
@@ -1490,6 +1535,7 @@ Width: 469
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 197 709 m 1,0,-1
@@ -1509,6 +1555,7 @@ Width: 556
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 578 -126 m 1,0,-1
@@ -1525,6 +1572,7 @@ Width: 222
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 158 477 m 1,0,-1
@@ -1546,6 +1594,7 @@ Width: 334
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 276 729 m 1,0,-1
@@ -1591,6 +1640,7 @@ Width: 260
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 100 729 m 1,0,-1
@@ -1607,6 +1657,7 @@ Width: 334
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 29 -212 m 1,0,-1
@@ -1648,6 +1699,7 @@ Width: 584
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 455 411 m 1,0,-1
@@ -1672,12 +1724,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D02
+StartChar: anusvara
 Encoding: 3330 3330 46
 Width: 403
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 215 313 m 0,0,1
@@ -1720,12 +1773,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D03
+StartChar: visarga
 Encoding: 3331 3331 47
 Width: 312
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 170 503 m 1,0,1
@@ -1807,12 +1861,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D05
+StartChar: ml_a
 Encoding: 3333 3333 48
 Width: 1119
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 339 442 m 1,0,1
@@ -2004,12 +2059,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D06
+StartChar: ml_aa
 Encoding: 3334 3334 49
 Width: 1285
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 339 442 m 1,0,1
@@ -2240,12 +2296,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D07
+StartChar: ml_i
 Encoding: 3335 3335 50
 Width: 929
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 119 295 m 1,0,1
@@ -2371,12 +2428,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D08
+StartChar: ml_ii
 Encoding: 3336 3336 51
 Width: 1433
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1154 426 m 1,0,1
@@ -2588,12 +2646,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D09
+StartChar: ml_u
 Encoding: 3337 3337 52
 Width: 645
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 119 295 m 1,0,1
@@ -2695,12 +2754,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D0A
+StartChar: ml_uu
 Encoding: 3338 3338 53
 Width: 1150
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 869 399 m 1,0,1
@@ -2884,12 +2944,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D0B
+StartChar: ml_r
 Encoding: 3339 3339 54
 Width: 784
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 200 5 m 1,0,-1
@@ -3054,12 +3115,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D0C
+StartChar: ml_l
 Encoding: 3340 3340 55
 Width: 926
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 831 360 m 1,0,-1
@@ -3164,12 +3226,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D0E
+StartChar: ml_e
 Encoding: 3342 3342 56
 Width: 1116
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 556 40 m 1,0,-1
@@ -3315,12 +3378,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D0F
+StartChar: ml_ee
 Encoding: 3343 3343 57
 Width: 1119
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 556 40 m 1,0,-1
@@ -3485,12 +3549,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D10
+StartChar: ml_ai
 Encoding: 3344 3344 58
 Width: 1663
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1095 40 m 1,0,-1
@@ -3721,12 +3786,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D12
+StartChar: ml_o
 Encoding: 3346 3346 59
 Width: 640
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -3815,12 +3881,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D13
+StartChar: ml_oo
 Encoding: 3347 3347 60
 Width: 1064
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 848 503 m 1,0,1
@@ -3959,12 +4026,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D14
+StartChar: ml_au
 Encoding: 3348 3348 61
 Width: 1154
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 880 426 m 1,0,1
@@ -4136,6 +4204,7 @@ Width: 881
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 296 289 m 1,0,1
@@ -4257,6 +4326,7 @@ Width: 929
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -4360,6 +4430,7 @@ Width: 884
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 502 m 0,0,1
@@ -4440,6 +4511,7 @@ Width: 1328
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 508 175 m 1,0,-1
@@ -4555,6 +4627,7 @@ Width: 926
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -4707,6 +4780,7 @@ Width: 979
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 911 40 m 1,0,-1
@@ -4773,6 +4847,7 @@ Width: 1216
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 732 39 m 1,0,1
@@ -4904,6 +4979,7 @@ Width: 735
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 401 m 1,0,-1
@@ -5064,6 +5140,7 @@ Width: 1494
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 392 434 m 1,0,1
@@ -5214,6 +5291,7 @@ Width: 1210
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -5364,6 +5442,7 @@ Width: 548
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 275 503 m 1,0,-1
@@ -5441,6 +5520,7 @@ Width: 597
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 307 503 m 1,0,1
@@ -5503,6 +5583,7 @@ Width: 1163
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 752 103 m 1,0,-1
@@ -5610,6 +5691,7 @@ Width: 1163
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 752 103 m 1,0,-1
@@ -5736,6 +5818,7 @@ Width: 1316
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -5892,6 +5975,7 @@ Width: 834
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 392 434 m 1,0,1
@@ -5993,6 +6077,7 @@ Width: 881
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 437 40 m 1,0,-1
@@ -6066,6 +6151,7 @@ Width: 548
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 441 244 m 1,0,-1
@@ -6157,6 +6243,7 @@ Width: 881
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 464 108 m 1,0,1
@@ -6240,6 +6327,7 @@ Width: 881
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 465 369 m 1,0,1
@@ -6331,6 +6419,7 @@ Width: 979
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 911 40 m 1,0,-1
@@ -6418,6 +6507,7 @@ Width: 1074
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 627 40 m 1,0,-1
@@ -6515,6 +6605,7 @@ Width: 1213
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -6628,6 +6719,7 @@ Width: 595
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 329 503 m 1,0,-1
@@ -6726,6 +6818,7 @@ Width: 593
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 307 503 m 1,0,1
@@ -6800,6 +6893,7 @@ Width: 881
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 555 35 m 1,0,-1
@@ -6919,6 +7013,7 @@ Width: 595
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 532 204 m 1,0,-1
@@ -6989,6 +7084,7 @@ Width: 591
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 307 503 m 1,0,1
@@ -7051,6 +7147,7 @@ Width: 884
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 817 40 m 1,0,-1
@@ -7126,6 +7223,7 @@ Width: 692
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -7256,6 +7354,7 @@ Width: 642
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 444 171 m 1,0,-1
@@ -7345,6 +7444,7 @@ Width: 929
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 864 40 m 1,0,-1
@@ -7428,6 +7528,7 @@ Width: 878
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 766 392 m 1,0,1
@@ -7533,6 +7634,7 @@ Width: 1074
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 674 284 m 1,0,-1
@@ -7657,6 +7759,7 @@ Width: 1163
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 374 m 1,0,-1
@@ -7763,6 +7866,7 @@ Width: 1116
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 636 40 m 1,0,-1
@@ -7876,6 +7980,7 @@ Width: 453
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 238 503 m 1,0,1
@@ -7937,6 +8042,7 @@ Width: 218
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 -2 740 m 1,0,-1
@@ -7980,6 +8086,7 @@ Width: 312
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 90 683 m 1,0,1
@@ -8051,6 +8158,7 @@ Width: 310
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 209 25 m 1,0,1
@@ -8121,6 +8229,7 @@ Width: 342
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 282 -115 m 1,0,1
@@ -8211,6 +8320,7 @@ Width: 403
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 172 -194 m 1,0,1
@@ -8282,6 +8392,7 @@ Width: 595
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -8367,6 +8478,7 @@ Width: 502
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 320 30 m 1,0,1
@@ -8465,6 +8577,7 @@ Width: 1161
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 678 249 m 1,0,1
@@ -8628,6 +8741,7 @@ Width: 2015
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 249 493 m 1,0,-1
@@ -8767,6 +8881,7 @@ Width: 1855
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1630 503 m 1,0,1
@@ -8918,6 +9033,7 @@ Width: 595
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 426 m 1,0,1
@@ -9006,6 +9122,7 @@ Width: 357
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 80 644 m 1,0,1
@@ -9047,6 +9164,7 @@ Width: 595
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 426 m 1,0,1
@@ -9135,6 +9253,7 @@ Width: 881
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 121 267 m 1,0,-1
@@ -9228,6 +9347,7 @@ Width: 884
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 437 40 m 1,0,-1
@@ -9304,6 +9424,7 @@ Width: 929
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 530 40 m 1,0,-1
@@ -9377,6 +9498,7 @@ Width: 1219
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 815 40 m 1,0,-1
@@ -9485,6 +9607,7 @@ Width: 735
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 539 389 m 1,0,-1
@@ -9594,6 +9717,7 @@ Width: 783
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 532 188 m 1,0,1
@@ -9745,6 +9869,7 @@ Width: 1273
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 845 379 m 1,0,1
@@ -9900,6 +10025,7 @@ Width: 837
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 289 32 m 1,0,-1
@@ -9991,6 +10117,7 @@ Width: 929
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 862 -15 m 1,0,-1
@@ -10090,6 +10217,7 @@ Width: 1069
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 783 406 m 1,0,-1
@@ -10227,6 +10355,8 @@ Width: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: ZWNJ
@@ -10235,6 +10365,7 @@ Width: 82
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 56 0 m 1,0,-1
@@ -10251,6 +10382,7 @@ Width: 141
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 157 664 m 1,0,-1
@@ -10278,6 +10410,7 @@ Width: 165
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 185 500 m 1,0,1
@@ -10295,6 +10428,7 @@ Width: 165
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 165 679 m 1,0,1
@@ -10312,6 +10446,7 @@ Width: 296
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 317 500 m 1,0,1
@@ -10335,6 +10470,7 @@ Width: 292
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 293 679 m 1,0,1
@@ -10358,6 +10494,7 @@ Width: 608
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 520 435 m 1,0,-1
@@ -10409,6 +10546,7 @@ Width: 1312
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1134 490 m 1,0,-1
@@ -10600,6 +10738,7 @@ Width: 881
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 709 496 m 1,0,-1
@@ -10733,6 +10872,7 @@ Width: 593
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 420 484 m 1,0,-1
@@ -10841,6 +10981,7 @@ Width: 923
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 746 470 m 1,0,1
@@ -10978,6 +11119,7 @@ Width: 926
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 754 489 m 1,0,-1
@@ -11094,6 +11236,7 @@ Width: 0
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 -464 -171 m 1,0,1
@@ -11195,6 +11338,7 @@ Width: 400
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 271 490 m 1,0,1
@@ -11267,6 +11411,7 @@ Width: 306
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 130 502 m 0,0,1
@@ -11315,6 +11460,7 @@ Width: 546
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 485 40 m 1,0,-1
@@ -11351,6 +11497,7 @@ Width: 1482
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 296 289 m 1,0,1
@@ -11538,6 +11685,7 @@ Width: 1245
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 296 289 m 1,0,1
@@ -11705,6 +11853,7 @@ Width: 881
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 132 262 m 1,0,1
@@ -11856,6 +12005,7 @@ Width: 548
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 454 1 m 1,0,1
@@ -11965,6 +12115,7 @@ Width: 548
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 470 1 m 1,0,1
@@ -12082,6 +12233,7 @@ Width: 1316
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -12273,6 +12425,7 @@ Width: 1513
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 726 234 m 1,0,-1
@@ -12457,6 +12610,7 @@ Width: 1052
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 985 40 m 1,0,-1
@@ -12560,6 +12714,7 @@ Width: 1254
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 691 500 m 1,0,-1
@@ -12672,6 +12827,7 @@ Width: 1502
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 401 m 1,0,-1
@@ -12952,6 +13108,7 @@ Width: 1828
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -13193,6 +13350,7 @@ Width: 1553
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -13375,6 +13533,7 @@ Width: 1786
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1330 360 m 1,0,-1
@@ -13587,6 +13746,7 @@ Width: 2000
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 273 m 1,0,-1
@@ -13792,6 +13952,7 @@ Width: 1352
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 208 31 m 1,0,1
@@ -13992,6 +14153,7 @@ Width: 1451
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 384 438 m 1,0,-1
@@ -14164,6 +14326,7 @@ Width: 1451
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 392 434 m 1,0,1
@@ -14303,6 +14466,7 @@ Width: 1466
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 441 402 m 1,0,-1
@@ -14449,6 +14613,7 @@ Width: 1239
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 690 29 m 1,0,-1
@@ -14601,6 +14766,7 @@ Width: 1201
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 787 459 m 1,0,1
@@ -14773,6 +14939,7 @@ Width: 1119
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 698 115 m 1,0,1
@@ -14941,6 +15108,7 @@ Width: 1262
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 844 369 m 1,0,-1
@@ -15058,6 +15226,7 @@ Width: 905
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 796 243 m 1,0,1
@@ -15200,6 +15369,7 @@ Width: 1166
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 724 434 m 1,0,1
@@ -15331,6 +15501,7 @@ Width: 1549
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1131 103 m 1,0,-1
@@ -15475,6 +15646,7 @@ Width: 979
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 468 362 m 1,0,1
@@ -15589,6 +15761,7 @@ Width: 1501
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 465 369 m 1,0,1
@@ -15725,6 +15898,7 @@ Width: 1077
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 292 88 m 1,0,1
@@ -15846,6 +16020,7 @@ Width: 1216
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1149 40 m 1,0,-1
@@ -15957,6 +16132,7 @@ Width: 1468
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 746 481 m 1,0,-1
@@ -16107,6 +16283,7 @@ Width: 1698
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 375 m 1,0,-1
@@ -16260,6 +16437,7 @@ Width: 1451
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 684 40 m 1,0,1
@@ -16390,6 +16568,7 @@ Width: 1166
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 627 40 m 1,0,-1
@@ -16509,6 +16688,7 @@ Width: 1106
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 91 3379 N 1 0 0 1 483 0 2
 Refer: 91 3379 N 1 0 0 1 0 0 2
@@ -16521,6 +16701,7 @@ Width: 855
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.843201 742 26 2
 Refer: 62 3349 N 1 0 0 1 0 0 2
@@ -16533,6 +16714,7 @@ Width: 855
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 96 3384 N 0.674866 0 0 0.492615 56 -251 2
 Refer: 62 3349 N 1 0 0 1 0 0 2
@@ -16545,6 +16727,7 @@ Width: 881
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 578 234 m 1,0,-1
@@ -16736,6 +16919,7 @@ Width: 1322
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 81 3368 N 0.754517 0 0 0.530823 654 -290 2
 Refer: 65 3352 N 1 0 0 1 0 0 2
@@ -16748,6 +16932,7 @@ Width: 875
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 64 3351 N 0.842346 0 0 0.478149 69 -236 2
 Refer: 64 3351 N 1 0 0 1 0 0 2
@@ -16760,6 +16945,7 @@ Width: 878
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.83551 791 25 2
 Refer: 64 3351 N 1 0 0 1 0 0 2
@@ -16772,6 +16958,7 @@ Width: 1464
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 86 3374 N 0.869873 0 0 0.498413 954 -268 2
 Refer: 139 -1 N 1 0 0 1 0 0 2
@@ -16784,6 +16971,7 @@ Width: 976
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 911 40 m 1,0,-1
@@ -16890,6 +17078,7 @@ Width: 967
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 68 3355 N 0.690552 0 0 0.496521 124 -266 2
 Refer: 67 3354 N 1 0 0 1 0 0 2
@@ -16902,6 +17091,7 @@ Width: 1158
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 74 3361 N 1 0 0 0.487732 0 -238 2
 Refer: 74 3361 N 1 0 0 1 0 0 2
@@ -16914,6 +17104,7 @@ Width: 1159
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 75 3362 N 1 0 0 0.490112 0 -238 2
 Refer: 74 3361 N 1 0 0 1 0 0 2
@@ -16926,6 +17117,7 @@ Width: 1305
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 76 3363 N 1 0 0 0.48877 0 -237 2
 Refer: 76 3363 N 1 0 0 1 0 0 2
@@ -16938,6 +17130,7 @@ Width: 1298
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 73 3360 N 0.917419 0 0 0.574707 738 -289 2
 Refer: 76 3363 N 1 0 0 1 0 0 2
@@ -16950,6 +17143,7 @@ Width: 826
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.840576 736 11 2
 Refer: 77 3364 N 1 0 0 1 0 0 2
@@ -16962,6 +17156,7 @@ Width: 979
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 963 -21 m 1,0,-1
@@ -17094,6 +17289,7 @@ Width: 969
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 0.947876 0 0 0.840576 974 11 2
 Refer: 82 3370 N 1 0 0 1 0 0 2
@@ -17106,6 +17302,7 @@ Width: 1213
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 114 249 m 1,0,1
@@ -17256,6 +17453,7 @@ Width: 1206
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.843994 1220 1 2
 Refer: 84 3372 N 1 0 0 1 0 0 2
@@ -17268,6 +17466,7 @@ Width: 1216
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 1103 -146 m 1,0,-1
@@ -17454,6 +17653,7 @@ Width: 1225
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 804 -207 m 1,0,1
@@ -17641,6 +17841,7 @@ Width: 1070
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.840576 1079 3 2
 Refer: 83 3371 N 1 0 0 1 0 0 2
@@ -17653,6 +17854,7 @@ Width: 1067
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 77 3364 N 0.829224 0 0 0.477234 384 -256 2
 Refer: 83 3371 N 1 0 0 1 0 0 2
@@ -17665,6 +17867,7 @@ Width: 602
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 0.963562 0 0 0.842285 599 2 2
 Refer: 86 3374 N 1 0 0 1 0 0 2
@@ -17677,6 +17880,7 @@ Width: 602
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 81 3368 N 0.609375 0 0 0.491577 48 -263 2
 Refer: 86 3374 N 1 0 0 1 0 0 2
@@ -17689,6 +17893,7 @@ Width: 884
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 545 -19 m 1,0,-1
@@ -17841,6 +18046,7 @@ Width: 876
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 86 3374 N 1 0 0 0.505432 166 -276 2
 Refer: 87 3375 N 1 0 0 1 0 0 2
@@ -17853,6 +18059,7 @@ Width: 895
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 62 3349 N 0.871155 0 0 0.489807 87 -256 2
 Refer: 87 3375 N 1 0 0 1 0 0 2
@@ -17865,6 +18072,7 @@ Width: 895
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 140 -1 N 0.704773 0 0 0.485291 -12 -253 2
 Refer: 87 3375 N 1 0 0 1 0 0 2
@@ -17877,6 +18085,7 @@ Width: 895
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 77 3364 N 0.916382 0 0 0.484009 87 -242 2
 Refer: 87 3375 N 1 0 0 1 0 0 2
@@ -17889,6 +18098,7 @@ Width: 895
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 154 -1 N 0.550537 0 0 0.480591 91 -237 2
 Refer: 87 3375 N 1 0 0 1 0 0 2
@@ -17901,6 +18111,7 @@ Width: 587
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 89 3377 N 0.822266 0 0 0.40155 46 -197 2
 Refer: 89 3377 N 1 0 0 1 0 0 2
@@ -17913,6 +18124,7 @@ Width: 873
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.842285 876 -2 2
 Refer: 90 3378 N 1 0 0 1 0 0 2
@@ -17926,6 +18138,7 @@ Width: 877
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 82 3370 N 0.860901 0 0 0.503967 44 -240 2
 Refer: 90 3378 N 1 0 0 1 0 0 2
@@ -17938,6 +18151,7 @@ Width: 877
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 62 3349 N 0.765808 0 0 0.49176 168 -260 2
 Refer: 90 3378 N 1 0 0 1 0 0 2
@@ -17950,6 +18164,7 @@ Width: 876
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 86 3374 N 0.788086 0 0 0.498413 287 -260 2
 Refer: 90 3378 N 1 0 0 1 0 0 2
@@ -17962,6 +18177,7 @@ Width: 929
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 599 -15 m 1,0,1
@@ -18074,6 +18290,7 @@ Width: 920
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.845642 922 1 2
 Refer: 93 3381 N 1 0 0 1 0 0 2
@@ -18086,6 +18303,7 @@ Width: 874
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 94 3382 N 0.937012 0 0 0.487732 22 -239 2
 Refer: 94 3382 N 1 0 0 1 0 0 2
@@ -18098,6 +18316,7 @@ Width: 874
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.845642 818 26 2
 Refer: 94 3382 N 1 0 0 1 0 0 2
@@ -18110,6 +18329,7 @@ Width: 1063
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 82 3370 N 1 0 0 0.508057 97 -214 2
 Refer: 95 3383 N 1 0 0 1 0 0 2
@@ -18122,6 +18342,7 @@ Width: 1066
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 76 3363 N 0.649353 0 0 0.494141 209 -266 2
 Refer: 95 3383 N 1 0 0 1 0 0 2
@@ -18134,6 +18355,7 @@ Width: 1077
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 847 -21 m 1,0,-1
@@ -18325,6 +18547,7 @@ Width: 1069
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 73 3360 N 0.8703 0 0 0.493469 558 -238 2
 Refer: 95 3383 N 1 0 0 1 0 0 2
@@ -18337,6 +18560,7 @@ Width: 1162
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 96 3384 N 0.906067 0 0 0.498413 88 -238 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -18349,6 +18573,7 @@ Width: 1162
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.841492 1166 30 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -18361,6 +18586,7 @@ Width: 1187
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 375 m 1,0,-1
@@ -18585,6 +18811,7 @@ Width: 1163
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 82 3370 N 1 0 0 0.503479 189 -191 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -18597,6 +18824,7 @@ Width: 1159
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 77 3364 N 0.917847 0 0 0.478699 413 -267 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -18609,6 +18837,7 @@ Width: 1159
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 62 3349 N 0.935669 0 0 0.485413 338 -219 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -18621,6 +18850,7 @@ Width: 1159
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 81 3368 N 0.926941 0 0 0.489624 343 -258 2
 Refer: 96 3384 N 1 0 0 1 -2 3 2
@@ -18633,6 +18863,7 @@ Width: 1162
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 86 3374 N 1 0 0 0.497986 576 -249 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -18645,6 +18876,7 @@ Width: 1114
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 135 -1 N 1 0 0 0.851685 1107 13 2
 Refer: 97 3385 N 1 0 0 1 0 0 2
@@ -18657,6 +18889,7 @@ Width: 670
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 92 3380 N 1 0 0 1 0 0 2
 Refer: 86 3374 N 0.819702 0 0 0.494446 104 -243 2
@@ -18669,6 +18902,7 @@ Width: 944
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 89 3377 N 0.72998 0 0 0.401062 481 -204 2
 Refer: 131 -1 N 1 0 0 1 0 0 2
@@ -18681,6 +18915,7 @@ Width: 997
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 62 3349 N 1 0 0 1 124 0 2
 Refer: 137 -1 N 1 0 0 1 4 0 2
@@ -18693,6 +18928,7 @@ Width: 989
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 64 3351 N 1 0 0 1 114 -2 2
 Refer: 137 -1 N 1 0 0 1 4 0 2
@@ -18705,6 +18941,7 @@ Width: 1442
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 65 3352 N 1 0 0 1 117 4 2
 Refer: 137 -1 N 1 0 0 1 4 0 2
@@ -18717,6 +18954,7 @@ Width: 1328
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 68 3355 N 1 0 0 1 123 4 2
@@ -18729,6 +18967,7 @@ Width: 904
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 69 3356 N 1 0 0 1 171 32 2
@@ -18741,6 +18980,7 @@ Width: 1631
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 70 3357 N 1 0 0 1 141 -8 2
@@ -18753,6 +18993,7 @@ Width: 689
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 72 3359 N 1 0 0 1 143 -2 2
@@ -18765,6 +19006,7 @@ Width: 1287
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 74 3361 N 1 0 0 1 129 2 2
@@ -18777,6 +19019,7 @@ Width: 1277
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 75 3362 N 1 0 0 1 121 4 2
@@ -18789,6 +19032,7 @@ Width: 945
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 77 3364 N 1 0 0 1 123 -4 2
@@ -18801,6 +19045,7 @@ Width: 718
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 79 3366 N 1 0 0 1 169 0 2
@@ -18813,6 +19058,7 @@ Width: 1004
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 80 3367 N 1 0 0 1 131 0 2
@@ -18825,6 +19071,7 @@ Width: 1002
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 81 3368 N 1 0 0 1 129 0 2
@@ -18837,6 +19084,7 @@ Width: 1082
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 82 3370 N 1 0 0 1 115 2 2
@@ -18849,6 +19097,7 @@ Width: 1181
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 83 3371 N 1 0 0 1 119 4 2
@@ -18861,6 +19110,7 @@ Width: 1319
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 84 3372 N 1 0 0 1 115 0 2
@@ -18873,6 +19123,7 @@ Width: 760
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 85 3373 N 1 0 0 1 169 0 2
@@ -18885,6 +19136,7 @@ Width: 761
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 86 3374 N 1 0 0 1 169 0 2
@@ -18897,6 +19149,7 @@ Width: 1095
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 93 3381 N 1 0 0 1 169 0 2
@@ -18909,6 +19162,7 @@ Width: 1043
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 94 3382 N 1 0 0 1 169 0 2
@@ -18921,6 +19175,7 @@ Width: 1185
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 95 3383 N 1 0 0 1 125 2 2
@@ -18933,6 +19188,7 @@ Width: 1331
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 96 3384 N 1 0 0 1 169 0 2
@@ -18945,6 +19201,7 @@ Width: 1280
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 97 3385 N 1 0 0 1 169 0 2
@@ -18957,6 +19214,7 @@ Width: 1489
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 153 -1 N 1 0 0 1 138 0 2
@@ -18969,6 +19227,7 @@ Width: 1038
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 161 -1 N 1 0 0 1 142 16 2
@@ -18981,6 +19240,7 @@ Width: 1288
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 162 -1 N 1 0 0 1 126 4 2
@@ -18993,6 +19253,7 @@ Width: 1312
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 167 -1 N 1 0 0 1 110 4 2
@@ -19005,6 +19266,7 @@ Width: 855
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 62 3349 N 1 0 0 1 0 0 2
 Refer: 110 3405 N 1 0 0 1 531 3 2
@@ -19017,6 +19279,7 @@ Width: 921
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 63 3350 N 1 0 0 1 0 0 2
 Refer: 110 3405 N 1 0 0 1 654 48 2
@@ -19029,6 +19292,7 @@ Width: 924
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 64 3351 N 1 0 0 1 0 0 2
 Refer: 110 3405 N 1 0 0 1 609 24 2
@@ -19041,6 +19305,7 @@ Width: 1365
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 1053 36 2
 Refer: 65 3352 N 1 0 0 1 0 0 2
@@ -19053,6 +19318,7 @@ Width: 946
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 652 36 2
 Refer: 66 3353 N 1 0 0 1 0 0 2
@@ -19065,6 +19331,7 @@ Width: 965
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 716 42 2
 Refer: 67 3354 N 1 0 0 1 0 0 2
@@ -19077,6 +19344,7 @@ Width: 1199
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 941 6 2
 Refer: 68 3355 N 1 0 0 1 0 0 2
@@ -19089,6 +19357,7 @@ Width: 782
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 527 18 2
 Refer: 69 3356 N 1 0 0 1 0 0 2
@@ -19101,6 +19370,7 @@ Width: 1588
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 1307 4 2
 Refer: 70 3357 N 1 0 0 1 0 0 2
@@ -19113,6 +19383,7 @@ Width: 1298
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 999 -18 2
 Refer: 71 3358 N 1 0 0 1 0 0 2
@@ -19125,6 +19396,7 @@ Width: 594
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 341 10 2
 Refer: 72 3359 N 1 0 0 1 0 0 2
@@ -19137,6 +19409,7 @@ Width: 592
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 353 0 2
 Refer: 73 3360 N 1 0 0 1 0 0 2
@@ -19149,6 +19422,7 @@ Width: 1266
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 919 40 2
 Refer: 74 3361 N 1 0 0 1 0 0 2
@@ -19161,6 +19435,7 @@ Width: 1191
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 926 52 2
 Refer: 75 3362 N 1 0 0 1 0 0 2
@@ -19173,6 +19448,7 @@ Width: 1341
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 1042 26 2
 Refer: 76 3363 N 1 0 0 1 0 0 2
@@ -19185,6 +19461,7 @@ Width: 919
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 625 -12 2
 Refer: 77 3364 N 1 0 0 1 0 0 2
@@ -19197,6 +19474,7 @@ Width: 900
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 0.97467 651 34 2
 Refer: 78 3365 N 1 0 0 1 0 0 2
@@ -19209,6 +19487,7 @@ Width: 604
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 378 6 2
 Refer: 79 3366 N 1 0 0 1 0 0 2
@@ -19221,6 +19500,7 @@ Width: 947
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 712 12 2
 Refer: 80 3367 N 1 0 0 1 0 0 2
@@ -19233,6 +19513,7 @@ Width: 957
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 681 22 2
 Refer: 81 3368 N 1 0 0 1 0 0 2
@@ -19245,6 +19526,7 @@ Width: 1048
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 768 42 2
 Refer: 82 3370 N 1 0 0 1 0 0 2
@@ -19257,6 +19539,7 @@ Width: 1097
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 800 30 2
 Refer: 83 3371 N 1 0 0 1 0 0 2
@@ -19269,6 +19552,7 @@ Width: 1296
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 971 40 2
 Refer: 84 3372 N 1 0 0 1 0 0 2
@@ -19281,6 +19565,7 @@ Width: 606
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 350 8 2
 Refer: 85 3373 N 1 0 0 1 0 0 2
@@ -19293,6 +19578,7 @@ Width: 602
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 387 -26 2
 Refer: 86 3374 N 1 0 0 1 0 0 2
@@ -19305,6 +19591,7 @@ Width: 895
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 676 18 2
 Refer: 87 3375 N 1 0 0 1 0 0 2
@@ -19317,6 +19604,7 @@ Width: 625
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 358 -20 2
 Refer: 88 3376 N 1 0 0 1 0 0 2
@@ -19329,6 +19617,7 @@ Width: 587
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 350 -4 2
 Refer: 89 3377 N 1 0 0 1 0 0 2
@@ -19341,6 +19630,7 @@ Width: 889
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 664 24 2
 Refer: 90 3378 N 1 0 0 1 0 0 2
@@ -19353,6 +19643,7 @@ Width: 599
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 380 -22 2
 Refer: 91 3379 N 1 0 0 1 0 0 2
@@ -19365,6 +19656,7 @@ Width: 670
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 433 -2 2
 Refer: 92 3380 N 1 0 0 1 0 0 2
@@ -19377,6 +19669,7 @@ Width: 955
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 724 28 2
 Refer: 93 3381 N 1 0 0 1 0 0 2
@@ -19389,6 +19682,7 @@ Width: 874
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 655 -18 2
 Refer: 94 3382 N 1 0 0 1 0 0 2
@@ -19401,6 +19695,7 @@ Width: 1169
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 935 18 2
 Refer: 95 3383 N 1 0 0 1 0 0 2
@@ -19413,6 +19708,7 @@ Width: 1200
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 909 24 2
 Refer: 96 3384 N 1 0 0 1 0 0 2
@@ -19425,6 +19721,7 @@ Width: 1042
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 832 24 2
 Refer: 97 3385 N 1 0 0 1 0 0 2
@@ -19437,6 +19734,7 @@ Width: 587
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 110 3405 N 1 0 0 1 350 6 2
 Refer: 203 -1 N 1 0 0 1 0 0 2
@@ -19449,6 +19747,7 @@ Width: 1664
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 137 -1 N 1 0 0 1 4 0 2
 Refer: 163 -1 N 1 0 0 1 112 2 2
@@ -19461,6 +19760,7 @@ Width: 357
 GlyphClass: 3
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 354 635 m 1,0,-1
@@ -19509,6 +19809,7 @@ Encoding: 3424 3424 293
 Width: 784
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 606.89 -129.5 m 5,0,-1
@@ -19777,6 +20078,7 @@ Encoding: 3425 3425 294
 Width: 976
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 208 31 m 1,0,-1
