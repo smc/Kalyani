@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136575263
-ModificationTime: 1419415883
+ModificationTime: 1419782209
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -301,7 +301,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 13 5
+WinInfo: 104 13 5
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65702 293
@@ -10531,7 +10531,7 @@ EndSplineSet
 EndChar
 
 StartChar: nhcil
-Encoding: 65539 -1 129
+Encoding: 3450 3450 129
 Width: 1312
 GlyphClass: 3
 Flags: W
@@ -10717,13 +10717,13 @@ SplineSet
  281 247 281 247 246 256 c 1,254,-1
  219 258 l 1,235,236
 EndSplineSet
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" nh xx ZWJ
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" nh xx ZWJ
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable" nhxx ZWJ
+Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" nh xx ZWJ
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" nh xx ZWJ
 EndChar
 
 StartChar: n1cil
-Encoding: 65540 -1 130
+Encoding: 3451 3451 130
 Width: 881
 GlyphClass: 3
 Flags: W
@@ -10851,13 +10851,13 @@ SplineSet
  762 398 l 1,174,175
  747 415 747 415 737 420 c 1,148,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" n1 xx ZWJ
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" n1 xx ZWJ
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable" n1xx ZWJ
+Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" n1 xx ZWJ
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" n1 xx ZWJ
 EndChar
 
 StartChar: r3cil
-Encoding: 65541 -1 131
+Encoding: 3452 3452 131
 Width: 593
 GlyphClass: 3
 Flags: W
@@ -10960,13 +10960,13 @@ SplineSet
  447 406 l 1,134,-1
  446 407 l 1,106,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" r3 xx ZWJ
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" r3 xx ZWJ
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable" r3xx ZWJ
+Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" r3 xx ZWJ
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" r3 xx ZWJ
 EndChar
 
 StartChar: l3cil
-Encoding: 65542 -1 132
+Encoding: 3453 3453 132
 Width: 923
 GlyphClass: 3
 Flags: W
@@ -11098,13 +11098,13 @@ SplineSet
  859 242 l 1,179,180
  842 330 842 330 771 389 c 1,163,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" l3 xx ZWJ
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" l3 xx ZWJ
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable" l3xx ZWJ
+Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" l3 xx ZWJ
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" l3 xx ZWJ
 EndChar
 
 StartChar: lhcil
-Encoding: 65543 -1 133
+Encoding: 3454 3454 133
 Width: 926
 GlyphClass: 3
 Flags: W
@@ -11215,9 +11215,9 @@ SplineSet
  831 340 l 1,149,150
  811 384 811 384 780 409 c 1,129,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" lh xx ZWJ
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" lh xx ZWJ
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 3 subtable" lhxx ZWJ
+Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" lh xx ZWJ
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 1 subtable" lh xx ZWJ
 EndChar
 
 StartChar: l4
@@ -18895,7 +18895,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 89 3377 N 0.72998 0 0 0.401062 481 -204 2
-Refer: 130 -1 N 1 0 0 1 0 0 2
+Refer: 130 3451 N 1 0 0 1 0 0 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" n1 xx rh
 EndChar
 
